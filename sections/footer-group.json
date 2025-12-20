@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "title": "Livraison Rapide",
+            "content": "<p>Stock en France. Nous expédions nos colis en 24H à 48H ouvrés.</p>"
           }
         },
         "customer-support": {
@@ -36,21 +36,21 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Service Client",
+            "content": "<p>Pour la moindre questions vous pouvez nous contacter.</p>"
           }
         },
         "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-lock",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "title": "Paiements Sécurisés",
+            "content": "<p>Les paiements sur notre site sont cryptés et sécurisés par 3D Secure.</p>"
           }
         }
       },

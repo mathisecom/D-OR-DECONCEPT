@@ -20,17 +20,25 @@
             "text": "📦 LIVRAISON 48H OFFERTE À PARTIR DE 80€ D'ACHATS",
             "url": ""
           }
+        },
+        "message_bd8t6B": {
+          "type": "message",
+          "settings": {
+            "text": "STICKERS OFFERT POUR CHAQUE COMMANDE !",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_bd8t6B"
       ],
       "settings": {
         "enable_sticky": false,
-        "autoplay": false,
-        "cycle_speed": 6,
+        "autoplay": true,
+        "cycle_speed": 4,
         "text_size": "text-xxs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#f2f2f2",
         "background_gradient": "",

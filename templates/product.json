@@ -77,7 +77,7 @@
         "collapsible_text_h3gTxU": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-box",
             "icon_width": 20,
             "title": "Livraison & Retours",
             "content": "<h3>Livraison</h3><p>Nos commandes sont expédiées et livrées sous <strong>2 à 3 jours ouvrables</strong> via <strong>La Poste Colissimo</strong>.<br/><br/>Nous proposons également la livraison via <strong>Mondial Relay</strong>, avec un délai estimé de <strong>3 à 5 jours ouvrables</strong>.</p><h3>Retour</h3><p>Les retours sont possibles pendant <strong>14 jours</strong> après la réception de la commande.<br/><br/>Si la demande de remboursement est validée, tu recevras ton remboursement sous <strong>5 à 10 jours ouvrés</strong> (délai géré par le processeur de paiement).</p><p>Les <strong>frais de retour</strong> sont pris en charge uniquement en cas de <strong>défaut du colis ou du produit nécessitant une prise en charge SAV</strong>.</p>",
@@ -87,7 +87,7 @@
         "collapsible_text_gwXBVk": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-recycle",
             "icon_width": 20,
             "title": "Lavage & Entretien",
             "content": "<p><strong>- </strong>Lavage 30°<br/><strong>- </strong>Pas de sèche-linge<br/><strong>- </strong>Repassage à l'envers</p>",

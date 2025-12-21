@@ -28,14 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -46,6 +38,10 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
+        },
+        "bf_size_charts_block_WqKbYQ": {
+          "type": "shopify://apps/bf-size-charts/blocks/block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -99,8 +95,8 @@
         "title",
         "badges",
         "price",
-        "description",
         "variant_picker",
+        "bf_size_charts_block_WqKbYQ",
         "quantity_selector",
         "buy_buttons",
         "liquid_64zb66",

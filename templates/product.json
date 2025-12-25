@@ -28,6 +28,19 @@
             "show_taxes_notice": false
           }
         },
+        "offer_fpMCT9": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "STICKERS OFFERT POUR CHAQUE COMMANDE",
+            "content": "",
+            "background": "#f2f2f2",
+            "text_color": "#1a1a1a"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -95,6 +108,7 @@
         "title",
         "badges",
         "price",
+        "offer_fpMCT9",
         "variant_picker",
         "bf_size_charts_block_WqKbYQ",
         "quantity_selector",

@@ -138,7 +138,7 @@
             "show_rating": true,
             "rating": 4,
             "author": "Nassim T.",
-            "title": "Testimonial 1",
+            "title": "Qualité au top",
             "content": "<p>Qualité au top<strong> .</strong> Le t-shirt tient bien après lavage et ne bouge pas. Franchement, pour les fans de JUL, c’est la meilleure boutique !</p>"
           }
         },
@@ -149,8 +149,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Je recommande.",
+            "content": "<p>On voit que c’est fait pour les vrais fans. J’ai déjà recommandé à tous mes potes, je recommande.</p>"
           }
         },
         "testimonial_AbR3zy": {
@@ -159,9 +159,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Louis C.",
+            "title": "Coupe parfaite, tissu de qualité",
+            "content": "<p>Coupe parfaite, tissu de qualité et livraison rapide. Je recommande à 100% et 1 étoiles en plus pour les stickers offert incroyable.</p>"
           }
         }
       },

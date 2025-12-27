@@ -27,11 +27,19 @@
             "text": "STICKERS OFFERT POUR CHAQUE COMMANDE !",
             "url": ""
           }
+        },
+        "message_ciiAfx": {
+          "type": "message",
+          "settings": {
+            "text": "LIVRAISON MONDIAL RELAY DISPONIBLE À 4.90€",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
-        "message_bd8t6B"
+        "message_bd8t6B",
+        "message_ciiAfx"
       ],
       "settings": {
         "enable_sticky": false,

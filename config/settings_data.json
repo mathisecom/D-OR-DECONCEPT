@@ -42,6 +42,8 @@
     "cart_icon": "tote_bag",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "80",
+    "social_instagram": "https://www.instagram.com/doretdeconcept/",
+    "social_tiktok": "https://www.tiktok.com/@doretdeconcept.com",
     "checkout_logo_image": "shopify://shop_images/DE_2.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",

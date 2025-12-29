@@ -151,6 +151,32 @@
         "input_text_color": ""
       }
     },
+    "rich_text_jNqJiG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_73cJGb": {
+          "type": "heading",
+          "settings": {
+            "text": "CE QUE DISENT NOS CLIENTS",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_73cJGb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_NWHNz3": {
       "type": "testimonials",
       "blocks": {
@@ -237,6 +263,7 @@
   },
   "order": [
     "main",
+    "rich_text_jNqJiG",
     "testimonials_NWHNz3",
     "related_products_Fc6gig"
   ]

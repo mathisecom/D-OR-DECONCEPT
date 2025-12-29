@@ -62,6 +62,12 @@
           "type": "shopify://apps/bf-size-charts/blocks/block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
           "settings": {}
         },
+        "liquid_VXftKi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yEYPVU\" data-block-type=\"liquid\"><div class=\"liquid\"><div class=\"live-views\" data-min=\"5\" data-max=\"30\" role=\"status\" aria-live=\"polite\">\n  <svg class=\"live-views__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n    <path d=\"M12 5C7 5 2.73 8.11 1 12c1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z\"></path>\n  </svg>\n  <span class=\"live-views__text\">\n    <strong><span id=\"lv-count-template--27880568095050__main\">29</span></strong> personnes en train de regarder ce produit\n  </span>\n</div>\n\n<style>\n  .live-views{\n    --accent: #6C2BFF; /* violet accent, ajuste si besoin */\n    display:flex; align-items:center; gap:8px;\n    font-size:13px; color:var(--accent);\n    margin:2px 0 0 0; user-select:none;\n  }\n  .live-views__icon{ width:16px; height:16px; fill:currentColor; opacity:.95;\n    animation: lv-blink 2.2s ease-in-out infinite;\n  }\n  .live-views__text{ color:var(--accent); }\n  .live-views__text strong{ font-weight:700; }\n  @keyframes lv-blink { 0%,100%{opacity:.95} 50%{opacity:.6} }\n  @media (max-width:600px){ .live-views{ font-size:12.5px; gap:6px } .live-views__icon{ width:15px; height:15px } }\n</style>\n\n<script>\n  (function() {\n    const countEl = document.getElementById('lv-count-template--27880568095050__main');\n    if (!countEl) return;\n    const root = countEl.closest('.live-views');\n    const min = parseInt(root?.dataset.min) || 120;   // borne inférieure\n    const max = parseInt(root?.dataset.max) || 280;   // borne supérieure\n\n    let n = Math.floor(Math.random() * (max - min + 1)) + min;\n    countEl.textContent = n;\n\n    function tick() {\n      // petite variation -3 à +4, bornée\n      const delta = Math.floor(Math.random() * 8) - 3;\n      n = Math.max(min, Math.min(max, n + delta));\n      countEl.textContent = n;\n    }\n\n    // boucle avec intervalle légèrement aléatoire (8–13 s)\n    (function loop(){\n      tick();\n      const delay = 8000 + Math.random() * 5000;\n      setTimeout(loop, delay);\n    })();\n  })();\n</script></div></div>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -124,6 +130,7 @@
         "offer_fpMCT9",
         "variant_picker",
         "bf_size_charts_block_WqKbYQ",
+        "liquid_VXftKi",
         "quantity_selector",
         "buy_buttons",
         "liquid_64zb66",

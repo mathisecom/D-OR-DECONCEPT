@@ -47,6 +47,12 @@
             "text_color": "#1a1a1a"
           }
         },
+        "liquid_BtN8V6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_NkMzyK\" data-block-type=\"liquid\"><div class=\"liquid\"><div class=\"stock-alert\">\n  <span class=\"stock-alert__dote\"></span>\n  <span class=\"stock-alert__text\"><strong>Quantité limitée — bientôt sold out.</strong></span>\n</div>\n\n<style>\n  .stock-alert {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    margin-bottom: 14px;\n    font-size: 15px;\n    color: #000;\n  }\n\n  .stock-alert__dote {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: #ff3b30;\n    box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.4);\n    animation: softPulse 1.6s infinite ease-in-out;\n  }\n\n  @keyframes softPulse {\n    0% {\n      transform: scale(1);\n      box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.4);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.25);\n      box-shadow: 0 0 0 6px rgba(255, 59, 48, 0);\n      opacity: 0.75;\n    }\n    100% {\n      transform: scale(1);\n      box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);\n      opacity: 1;\n    }\n  }\n\n  .stock-alert__text {\n    font-weight: 600;\n    letter-spacing: 0.2px;\n  }\n\n  @media (max-width: 600px) {\n    .stock-alert {\n      font-size: 14px;\n    }\n  }\n</style></div></div>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -64,6 +70,7 @@
         },
         "liquid_VXftKi": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yEYPVU\" data-block-type=\"liquid\"><div class=\"liquid\"><div class=\"live-views\" data-min=\"5\" data-max=\"30\" role=\"status\" aria-live=\"polite\">\n  <svg class=\"live-views__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n    <path d=\"M12 5C7 5 2.73 8.11 1 12c1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z\"></path>\n  </svg>\n  <span class=\"live-views__text\">\n    <strong><span id=\"lv-count-template--27880568095050__main\">29</span></strong> personnes en train de regarder ce produit\n  </span>\n</div>\n\n<style>\n  .live-views{\n    --accent: #6C2BFF; /* violet accent, ajuste si besoin */\n    display:flex; align-items:center; gap:8px;\n    font-size:13px; color:var(--accent);\n    margin:2px 0 0 0; user-select:none;\n  }\n  .live-views__icon{ width:16px; height:16px; fill:currentColor; opacity:.95;\n    animation: lv-blink 2.2s ease-in-out infinite;\n  }\n  .live-views__text{ color:var(--accent); }\n  .live-views__text strong{ font-weight:700; }\n  @keyframes lv-blink { 0%,100%{opacity:.95} 50%{opacity:.6} }\n  @media (max-width:600px){ .live-views{ font-size:12.5px; gap:6px } .live-views__icon{ width:15px; height:15px } }\n</style>\n\n<script>\n  (function() {\n    const countEl = document.getElementById('lv-count-template--27880568095050__main');\n    if (!countEl) return;\n    const root = countEl.closest('.live-views');\n    const min = parseInt(root?.dataset.min) || 120;   // borne inférieure\n    const max = parseInt(root?.dataset.max) || 280;   // borne supérieure\n\n    let n = Math.floor(Math.random() * (max - min + 1)) + min;\n    countEl.textContent = n;\n\n    function tick() {\n      // petite variation -3 à +4, bornée\n      const delta = Math.floor(Math.random() * 8) - 3;\n      n = Math.max(min, Math.min(max, n + delta));\n      countEl.textContent = n;\n    }\n\n    // boucle avec intervalle légèrement aléatoire (8–13 s)\n    (function loop(){\n      tick();\n      const delay = 8000 + Math.random() * 5000;\n      setTimeout(loop, delay);\n    })();\n  })();\n</script></div></div>"
           }
@@ -128,6 +135,7 @@
         "badges",
         "price",
         "offer_fpMCT9",
+        "liquid_BtN8V6",
         "variant_picker",
         "bf_size_charts_block_WqKbYQ",
         "liquid_VXftKi",

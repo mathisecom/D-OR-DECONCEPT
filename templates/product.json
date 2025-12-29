@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_nqPMB7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__liquid\">\n  <div style=\"display:flex;align-items:center;font-family:Bebas Neue,sans-serif;color:#333;\">\n    \n    <div style=\"display:flex;margin-right:6px;\">\n      <span style=\"font-size:18px;color:#34B678;margin-right:2px;\">★</span>\n      <span style=\"font-size:18px;color:#34B678;margin-right:2px;\">★</span>\n      <span style=\"font-size:18px;color:#34B678;margin-right:2px;\">★</span>\n      <span style=\"font-size:18px;color:#34B678;margin-right:2px;\">★</span>\n      <span style=\"font-size:18px;\n        background:linear-gradient(90deg,#34B678 50%,#ccc 50%);\n        -webkit-background-clip:text;\n        -webkit-text-fill-color:transparent;\">\n        ★\n      </span>\n    </div>\n\n    <span style=\"font-size:15px;font-weight:500;\">\n      4.8/5 sur +300 Avis Clients\n    </span>\n\n  </div>\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -105,6 +111,7 @@
         }
       },
       "block_order": [
+        "liquid_nqPMB7",
         "title",
         "badges",
         "price",

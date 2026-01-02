@@ -44,6 +44,7 @@
     "cart_free_shipping_threshold": "80",
     "social_instagram": "https://www.instagram.com/doretdeconcept/",
     "social_tiktok": "https://www.tiktok.com/@doretdeconcept.com",
+    "favicon": "shopify://shop_images/CREA_1080X1080_80.png",
     "checkout_logo_image": "shopify://shop_images/DE_2.png",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",

@@ -34,12 +34,20 @@
             "text": "LIVRAISON MONDIAL RELAY DISPONIBLE À 4.90€",
             "url": ""
           }
+        },
+        "message_FqbFNj": {
+          "type": "message",
+          "settings": {
+            "text": "❄️ SOLDES D'HIVER - JUSQU'À -40% DE RÉDUCTION",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
         "message_bd8t6B",
-        "message_ciiAfx"
+        "message_ciiAfx",
+        "message_FqbFNj"
       ],
       "settings": {
         "enable_sticky": false,

@@ -205,6 +205,12 @@
     "rich_text_Gih6YG": {
       "type": "rich-text",
       "blocks": {
+        "subheading_PtGawH": {
+          "type": "subheading",
+          "settings": {
+            "text": "ATTIRENT TOUS LES REGARDS"
+          }
+        },
         "heading_XgGUA9": {
           "type": "heading",
           "settings": {
@@ -216,9 +222,9 @@
         }
       },
       "block_order": [
+        "subheading_PtGawH",
         "heading_XgGUA9"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -231,11 +237,12 @@
     },
     "featured_collection_bC8xcm": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "t-shirt-jul-love-or"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,

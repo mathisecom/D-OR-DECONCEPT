@@ -202,6 +202,60 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_Gih6YG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XgGUA9": {
+          "type": "heading",
+          "settings": {
+            "text": "NOS T-SHIRT PAILLETTES",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XgGUA9"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_bC8xcm": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "custom_liquid_dAaxKh": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -553,6 +607,8 @@
     "ss_scrolling_logo_cloud_5_HjtQRk",
     "rich_text_hWCREC",
     "featured_collection_UnNEkr",
+    "rich_text_Gih6YG",
+    "featured_collection_bC8xcm",
     "custom_liquid_dAaxKh",
     "shop_the_look_qHkNdc",
     "rich_text_4GNyiT",

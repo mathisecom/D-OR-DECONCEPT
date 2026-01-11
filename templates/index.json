@@ -180,7 +180,7 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "nouveautes",
+        "collection": "frontpage",
         "products": [],
         "full_width": true,
         "stack_products": true,

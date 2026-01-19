@@ -100,6 +100,13 @@
             "url": ""
           }
         },
+        "image_TkH9EP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AVIS_DORETDECONCEPT_4.jpg",
+            "url": ""
+          }
+        },
         "image_H4EmKp": {
           "type": "image",
           "settings": {
@@ -114,21 +121,14 @@
             "image": "shopify://shop_images/AVIS_DORETDECONCEPT_2.jpg",
             "url": ""
           }
-        },
-        "image_TkH9EP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/AVIS_DORETDECONCEPT_4.jpg",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "image_M8dbD4",
         "image_BJBNpU",
+        "image_TkH9EP",
         "image_H4EmKp",
-        "image_fdxzFk",
-        "image_TkH9EP"
+        "image_fdxzFk"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {

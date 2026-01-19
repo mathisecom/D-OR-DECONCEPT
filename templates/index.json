@@ -109,6 +109,7 @@
         },
         "image_fdxzFk": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AVIS_DORETDECONCEPT_2.jpg",
             "url": ""
